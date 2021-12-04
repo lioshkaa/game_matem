@@ -1,0 +1,167 @@
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+a{
+  text-decoration: none;
+  color:coral
+}
+input{
+  width: 300px;
+  padding: 30px;
+  border: none;
+  color: red;
+}
+input:focus{
+  border: none;
+}
+.button #btn-text{
+  display: block;
+  margin: 0 auto;
+  color: white;
+  width: 200px;
+  height: 100px;
+  border: none;
+  background-color: blue;
+  cursor:pointer;
+  font-size: 20px;
+}
+.header{
+  background-color: chocolate;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_logo{
+  margin-left: 50px;
+  color:coral
+}
+.navigation_list ul{
+  display: flex;
+  list-style: none;
+  margin-right: 40px;
+  color:coral
+}
+.navigation_list ul li{
+  font-size: 30px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.navigation_list ul li:hover{
+  color:cornflowerblue;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.options div{
+  background-color: #ccc;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-right: 50px;
+  padding: 20px;
+  cursor: poiner;
+  transition: all 0.2s ease-in-out;
+}
+.options div.correct {
+  color: #fff;
+  background-color: green;
+}
+.question{
+  display: block;
+  background-color: wheat;
+  font-size: 65px;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 10px;
+  margin-right: 130px;
+  margin-left: 50px;
+}
+.option{
+  margin-bottom: 10px;
+}
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  background-color: darkcyan;
+  padding: 13px;
+  font-size: 40px;
+  color: white;
+  border-radius: 10px;
+  flex-basis: 700px;
+  max-width: 700px;
+  text-align: center;
+}
+.modal.active{
+  display: flex;
+}
+.play{
+  margin-top: 40px;
+}
+.modal .content #btn {
+  padding: 15px 50px;
+  border: none;
+  margin-top: 30px;
+  background-color: #ff9800;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+}
+.next{
+  text-decoration: none;
+  color: white;
+}
+.open{
+  display: block;
+}
+.options div.correct {
+  color: #fff;
+  background-color: green;
+}
+.options div.wrong {
+  color: #fff;
+  background-color: red;
+}
+.options div.disabled {
+  pointer-events: none;
+}
+#bt{
+  padding: 15px 50px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 30px;
+  background-color: #ff9800;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+
+
